@@ -17,7 +17,7 @@ import java.util.Base64.Encoder;
  */
 @Service
 public class DetectServiceImpl implements DetectService{
-    private Logger logger =LoggerFactory.getLogger(ImageDetectClientImpl.class);
+    private final Logger logger =LoggerFactory.getLogger(ImageDetectClientImpl.class);
 
     @Autowired
     private ImageDetectClient imageDetectClient;
